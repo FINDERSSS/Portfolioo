@@ -1,0 +1,116 @@
+html{
+    background-color: rgb(78, 78, 78); 
+ }
+ 
+ .navdiv {
+     font-family: 'Fredoka', sans-serif;
+     border-style: solid;
+     border-width: 8px;
+     border-radius: 20px;
+     border-color: rgb(67, 201, 67);
+     color: white;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+
+ li{
+     list-style: none;
+     display: inline-block;
+     margin-right: 10px;
+ }
+
+.logo {
+  font-family: 'Fredoka', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(67, 201, 67);
+  padding: 10px;
+  border-radius: 20px;
+  width: 350px;
+  text-align: center;
+  padding-top: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.currentpage {
+  font-family: 'Fredoka', sans-serif;
+  font-size: 40px;
+  margin-right: 125px;
+}
+ 
+ .navbar ul{
+    list-style-type: none;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+ }
+
+ .navbar a{
+   color: white;
+   background-color: rgb(0, 206, 0);
+   text-decoration: none;
+   padding: 15px;
+   display: block;
+   text-align: right;
+   font-size: 20px;
+   border-radius: 15px;
+   transition: background-color 0.25s ease-in-out;
+ }
+ 
+ .navbar a:hover{
+   background-color: rgb(0, 80, 0);
+ }
+
+.container_aboutme{
+  font-family: 'Fredoka', sans-serif;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(66, 66, 66);
+  text-align: center;
+  border-width: 10px;
+  width: 750px;
+  margin: 0 auto;
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  outline: 5px solid rgb(0, 0, 0);
+}
+
+.footer {
+  background-color: rgb(66, 66, 66);
+  padding: 1em;
+  text-align: center;
+  width: 100%;
+  margin-top: 400px;
+}
+
+.footer a{
+  font-family: 'Fredoka', sans-serif;
+  font-weight: bold;
+  color: white;
+  display: inline-block;
+  margin: 10px;
+  font-size: 20px;
+}
+
+.mymodels{
+  font-family: 'Fredoka', sans-serif;
+  font-size: 50px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+
+.images {
+  display: block;
+  margin: 20px auto;
+  width: 50%;
+  max-width: 100%;
+  height: auto;
+  outline: 10px;
+}
